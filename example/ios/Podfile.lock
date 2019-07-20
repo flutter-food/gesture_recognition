@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - gesture_recognition (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - gesture_recognition (from `.symlinks/plugins/gesture_recognition/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  gesture_recognition:
+    :path: ".symlinks/plugins/gesture_recognition/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  gesture_recognition: d3941a5afd0223739147402d848d028c028157d0
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.6.1
