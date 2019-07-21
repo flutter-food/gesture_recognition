@@ -3,25 +3,25 @@
 [![Pub](https://img.shields.io/pub/v/gesture_recognition.svg?style=flat-square)](https://pub.dartlang.org/packages/gesture_recognition)
 [![support](https://img.shields.io/badge/platform-flutter%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://pub.dartlang.org/packages/gesture_recognition)
 
-> a gesture recognition verification lock
+> 一个Flutter编写的手势识别验证锁。
 
 ### [中文](https://github.com/flutter-food/gesture_recognition/blob/master/README_ZH.md) [English](https://github.com/flutter-food/gesture_recognition/blob/master/README.md)
 
 ![](https://github.com/flutter-food/gesture_recognition/blob/master/img/icon.jpeg?raw=true)
 
-### Dependencies
+### 引用
 ```
 dependencies:
   gesture_recognition: ^version  
 ```
 
-### Demonstration
+### 演示
 ![](https://github.com/flutter-food/gesture_recognition/blob/master/img/setting.gif?raw=true)
 ![](https://github.com/flutter-food/gesture_recognition/blob/master/img/verify.gif?raw=true)
 
-### Example
+### 例子
 
-##### Settings PassWord
+##### 设置密码例子
 ```
 GestureView(
 	immediatelyClear: true,
@@ -34,7 +34,7 @@ GestureView(
 )
 ```
 
-##### Verify PassWord
+##### 验证密码例子
 ```
 GlobalKey<GestureState> gestureStateKey = GlobalKey();
 
@@ -54,18 +54,18 @@ GestureView(
 )
 ```
 
-### Parameter
+### 参数
 
-| Props | Type | Description | DefaultValue| isRequired |
+| 属性 | 类型 | 描述 | 默认| 必填 |
 | ------ | ----------- | ----------- | ----------- | ---- |
-| size| double | The size of the component, the width is equal to the height | | true |
-| selectColor | Color | The color when selected | Colors.blue | false |
-| unSelectColor | Color| Color when not selected |Colors.grey| false  |
-| ringWidth | double | Outer ring width of the point| 4 | false |,
-| ringRadius | double | Inner ring radius of the point | 30 | false |,
-| showUnSelectRing | bool | Whether the outer ring is displayed when the point is not selected | true | false |,
-| circleRadius | double | Inner radius of the point |20| false |,
-| lineWidth | double | Connection line width | 6 | false |
-| onPanUp | Function(List<int>) | After the finger is raised |  | false |
-| onPanDown | Function() | After pressing your finger | | false |
-| immediatelyClear | bool | Clear the trace after lifting the hand | false| false|
+| size| double | 组件的大小，宽度等于高度 | | true |
+| selectColor | Color | 被选择时的颜色 | Colors.blue | false |
+| unSelectColor | Color| 未选择时的颜色 |Colors.grey| false  |
+| ringWidth | double | 外圈环的宽度 | 4 | false |,
+| ringRadius | double | 外圈环的半径 | 30 | false |,
+| showUnSelectRing | bool | 未选择点时是否显示外圈 | true | false |,
+| circleRadius | double | 点的内半径 |20| false |,
+| lineWidth | double | 连接线的宽度 | 6 | false |
+| onPanUp | Function(List<int>) | 手指抬起后回馈 |  | false |
+| onPanDown | Function() | 手指按下时回馈 | | false |
+| immediatelyClear | bool | 手指抬起后是否清理痕迹 | false| false|

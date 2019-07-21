@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gesture_recognition_example/demo/setting_page.dart';
-import 'package:gesture_recognition_example/demo/verify_page.dart';
+
+import 'demo/setting_page.dart';
+import 'demo/verify_page.dart';
 
 void main() => runApp(MainPage());
 

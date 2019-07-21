@@ -1,8 +1,8 @@
 name: gesture_recognition
 description: a gesture recognition verification lock
 version: 0.0.1
-author:
-homepage:
+author: mochixuan <1306894924@qq.com>
+homepage: https://github.com/flutter-food/gesture_recognition
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
